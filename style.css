@@ -35,7 +35,7 @@ body{
     background: #2e5162;
 	height: 52px;
 	width: 100%;
-	text-align: center
+	text-align: center;
 	
 }
 .menu ul li{
@@ -95,11 +95,13 @@ main{
 	width:75%;
 	float: right;
     color: #fff;
+     
 }
 .content img{
     width: 200px;
     float: left;
     padding: 2px 9px 3px 9px;
     border: 20px;
-    
+    text-transform: capitalize;
+    text-shadow: 2px 2px red;
 }
