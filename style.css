@@ -1,11 +1,15 @@
 *{margin:0;}
 body{
-	background: #f1f1f1;
+	background: #bdbdbe;
 	font-family: arial;
 	font-size:14;
 	line-height:22px;
 	width:1020PX;
 	margin: 0 auto;
+    background-image: url(img/background2.jpg);
+    background-size: auto;
+    background-attachment: fixed;
+    background-position:center;
 }
 .header{
 	overflow: hidden;
@@ -55,9 +59,9 @@ main{
 
 }
 .sidebar{
-	width: 21%;
+	width: 12%;
 	float: left;
-	background: #dddddd;
+	background:rgba(0, 0, 0, 0.58) ;
 	padding: 10px;
 }
 .single-sidebar{
@@ -101,4 +105,12 @@ main{
 .content{
 	width:75%;
 	float: right;
+    color: #fff;
+}
+.content img{
+    width: 200px;
+    float: left;
+    padding: 2px 9px 3px 9px;
+    border: 20px;
+    
 }
