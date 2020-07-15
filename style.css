@@ -97,11 +97,14 @@ main{
     color: #fff;
      
 }
+.content1 h2{
+     text-transform: capitalize;
+     text-shadow: 2px 2px red;
+}
 .content img{
     width: 200px;
     float: left;
     padding: 2px 9px 3px 9px;
     border: 20px;
-    text-transform: capitalize;
-    text-shadow: 2px 2px red;
+   
 }
