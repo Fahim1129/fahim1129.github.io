@@ -1,10 +1,10 @@
 *{margin:0;}
 body{
-	background: #bdbdbe;
+	/*background: #bdbdbe;*/
 	font-family: arial;
 	font-size:14;
 	line-height:22px;
-	width:1020PX;
+	width:100%;
 	margin: 0 auto;
     background-image: url(img/background2.jpg);
     background-size: auto;
@@ -59,48 +59,37 @@ main{
 
 }
 .sidebar{
-	width: 12%;
+	width: 15%;
 	float: left;
 	background:rgba(0, 0, 0, 0.58) ;
 	padding: 10px;
 }
-.single-sidebar{
-	background:#ffffff;
-	margin:20px 0;
-	padding:5px;
-}
-.single-sidebar:fist-child{
-	margin: 0 0 20px 0;
-}
-.single-sidebar:last-child{
-    margin: 20px 0 0 0;
-}
-.single-sidebar h2{
+.sidebar h2{
     font-size: 18px;
-    color: aquamarine;
-    text-transform: uppercase;
+    color: #ffffff;
     text-align: center;
     margin-bottom: 20px;
-    
 }
-.singlesidebar ul{
+
+
+.sidebar ul{
     margin: 0;
 	padding: 0;
 	list-style: none;
 }
-.single-sidebar ul li{
+.sidebar ul li{
 	padding: 5px 0;
 	border-bottom: 1px solid #cccccc;
 }
-.single-sidebar ul li:last-child{
+.sidebar ul li:last-child{
 	border-bottom: 0 solid #cccccc;
 }
-.single-sidebar ul li a{
+.sidebar ul li a{
 	text-decoration: none;
 	color: #AD0A03;
 }
-.single-sidebar ul li a:hover{
-	color: #000000;
+.sidebar ul li a:hover{
+	color: #cdf200;
 }
 .content{
 	width:75%;
